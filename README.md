@@ -29,6 +29,13 @@ Theme Path: /Users/user1/Library/Developer/CoreSimulator/Devices/A43FRF87-33A8-4
 9. Re-opening the SnowBoardTV application should now show any themes in the "Themes" directory, select a theme and close the app to apply.
 10. Get creative!
 
+## Dummy Applications
+You may have noticed that the tvOS simulator comes with no default applications. I have worked around this by putting together a set of "Dummy Applications" for the stock Apple TV apps. You can simply drag these from the "Dummy Applications" folder into the simulator to install them.
+
+You can also generate your own dummy apps by going to the "Dummy App Generator" folder, changing the values in the "generator.sh" script and running it.
+
+Note: These dummy apps have their bundle identifier suffixed by ".sim", you can ignore this as the simulator build of SnowBoardTV will handle it. This will not affect your themes on real devices, so please **do not** add ".sim" to your theme files.
+
 ## Credits
 - Simject is an incredible tool for testing tweaks within the iOS Simulator available here: https://github.com/angelXwind/simject I have simply just recompiled it for the tvOS simulator
 
