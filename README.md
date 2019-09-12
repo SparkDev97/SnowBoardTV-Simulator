@@ -14,8 +14,8 @@ This is SnowBoardTV, the worlds first tvOS theming engine.
 
 ## Installation
 1. From the "SnowBoardTV-Simulator" folder, copy the "simject" folder to "/opt/" on the root of your macOS harddrive. This should result in a folder called "/opt/simject" containing 4 files.
-2. Launch the tvOS simulator. This can be done by opening spotlight, searching for "Simulator" and opening the application. Then in the top menu bar, select "Hardware" > "Device" and then any tvOS device.
-3. Drag and drop the "SnowBoardTV.app" into the simualtor window, this will install the SnowBoardTV application onto the simulator
+2. Launch the tvOS simulator. This can be done by opening spotlight, searching for "Simulator" and opening the application. Then in the top menu bar, select "Hardware" > "Device" and then any tvOS device (12.4 recommended, you may have issues with other versions. However, these issues do not occur on physical devices.).
+3. Drag and drop the "SnowBoardTV.app" into the simulator window, this will install the SnowBoardTV application onto the simulator
 4. Open a terminal window, drag in the "respring_simulator" file, and run it. This will respring the tvOS simulator and load simject and SnowBoardTV.
 5. Open the "SnowBoardTV" application in the tvOS simulator and make a note of the 2 file paths listed at the bottom of the application. They should look something like this:
 
