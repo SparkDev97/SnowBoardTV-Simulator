@@ -9,6 +9,7 @@ This is SnowBoardTV, the worlds first tvOS theming engine.
 - A macOS Installation
 - Latest version of Xcode
 - Basic knowledge of the macOS filesystem
+- tvOS 12.4 simulator recommended
 ```
 
 ## Installation
